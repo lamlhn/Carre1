@@ -3,4 +3,8 @@ int CalculCarre(int nombre)
 	return nombre*nombre;
 }
 
-Console.WriteLine(CalculCarre(3));
+int nombre;
+Console.WriteLine("Saisir un entier");
+nombre = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(CalculCarre(nombre));
